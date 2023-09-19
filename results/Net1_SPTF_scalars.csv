@@ -1,0 +1,2 @@
+run,repetition,Module,processTimeValues:max,processTimeValues:mean,processTimeValues:timeavg,queueingTime:max,queueingTime:mean,queueLength:max,queueLength:timeavg,responseTime:max,responseTime:mean,serverUtilization:timeavg
+Net1-0-20230829-18:31:09-1522,0,Net.sys,0.49418691592291,0.24365898355052,0.24698877486081,0.750942466942,0.048974026579496,2,0.0096550886471638,1.232773848971,0.29263301012997,0.31071231656334

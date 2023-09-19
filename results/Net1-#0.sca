@@ -1,0 +1,54 @@
+version 2
+run Net1-0-20230829-18:31:09-1522
+attr configname Net1
+attr datetime 20230829-18:31:09
+attr experiment Net1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Net
+attr processid 1522
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.source.avgInterArrivalTime 0.8s
+param **.sys.L 0.5s
+
+scalar Net.sys processTimeValues:mean 0.24365898355052
+attr interpolationmode sample-hold
+attr title "Produced Process Time Values, mean"
+scalar Net.sys processTimeValues:timeavg 0.24698877486081
+attr interpolationmode sample-hold
+attr title "Produced Process Time Values, timeavg"
+scalar Net.sys processTimeValues:max 0.49418691592291
+attr interpolationmode sample-hold
+attr title "Produced Process Time Values, max"
+scalar Net.sys responseTime:mean 0.29263301012997
+attr interpolationmode none
+attr title "Response Time, mean"
+attr unit s
+scalar Net.sys responseTime:max 1.232773848971
+attr interpolationmode none
+attr title "Response Time, max"
+attr unit s
+scalar Net.sys serverUtilization:timeavg 0.31071231656334
+attr interpolationmode sample-hold
+attr title "Utilization Factor of the server, timeavg"
+scalar Net.sys queueingTime:mean 0.048974026579496
+attr interpolationmode none
+attr title "Queueing time, mean"
+attr unit s
+scalar Net.sys queueingTime:max 0.750942466942
+attr interpolationmode none
+attr title "Queueing time, max"
+attr unit s
+scalar Net.sys queueLength:timeavg 0.0096550886471638
+attr interpolationmode sample-hold
+attr title "Queue length, timeavg"
+scalar Net.sys queueLength:max 2
+attr interpolationmode sample-hold
+attr title "Queue length, max"
+

@@ -1,0 +1,43 @@
+file 20087 1693327013                                           
+version 2
+run Net1-0-20230829-18:31:09-1522
+attr configname Net1
+attr datetime 20230829-18:31:09
+attr experiment Net1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Net
+attr processid 1522
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.source.avgInterArrivalTime 0.8s
+param **.sys.L 0.5s
+
+vector 0 Net.sys processTimeValues:vector ETV
+attr interpolationmode sample-hold
+attr title "Produced Process Time Values, vector"
+vector 1 Net.sys queueingTime:vector ETV
+attr interpolationmode none
+attr title "Queueing time, vector"
+attr unit s
+vector 2 Net.sys serverUtilization:vector ETV
+attr interpolationmode sample-hold
+attr title "Utilization Factor of the server, vector"
+vector 3 Net.sys responseTime:vector ETV
+attr interpolationmode none
+attr title "Response Time, vector"
+attr unit s
+vector 4 Net.sys queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "Queue length, vector"
+0	1007 4432 2 458 0.636699603653 100.359808070653 115 0.0023477410431951 0.49418691592291 28.02078310831 9.1763782721955
+1	5439 3033 2 458 0.636699603653 100.359808070653 115 0 0.750942466942 5.632013056642 1.8625871667832
+2	8472 6831 2 459 0.636699603653 100.558060940074 178 0 0.40294755938518 54.939197900503 17.363098839241
+3	15303 4176 3 459 0.994294286139 100.558060940074 115 0.010053775273 1.232773848971 33.652796164947 14.272459145034
+4	19479 607 31 453 7.52323296914 99.244250381742 26 0 2 6 8
+
